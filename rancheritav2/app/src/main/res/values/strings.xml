@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">rancheritav2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="artist">Artistas</string>
+    <string name="album">Album</string>
+    <string-array name="titles">
+        <item>Home</item>
+        <item>Tutorials</item>
+        <item>My Apps</item>
+        <item>OS Versions</item>
+        <item>Tools</item>
+        <item>About Us</item>
+    </string-array>
+    <string name="imgdesc">imgdesc</string>
+
+    <string-array name="icons">
+        <item>dwdw</item>
+        <item>dw</item>
+        <item>dw</item>
+        <item>dw</item>
+        <item>dw</item>
+        <item>dw</item>
+    </string-array>
+</resources>

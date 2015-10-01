@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/MnuOpc1" android:title="Play"
+        android:icon="@android:drawable/ic_menu_preferences"></item>
+    <item android:id="@+id/MnuOpc2" android:title="Stop"
+        android:icon="@android:drawable/ic_menu_compass"></item>
+    <item android:id="@+id/MnuOpc3" android:title="Reset"
+        android:icon="@android:drawable/ic_menu_agenda"></item>
+
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/header"
+        android:title="Refresh"/>
+</menu>
