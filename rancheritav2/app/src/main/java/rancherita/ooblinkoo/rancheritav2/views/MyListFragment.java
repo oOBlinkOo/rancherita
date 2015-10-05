@@ -4,12 +4,10 @@ package rancherita.ooblinkoo.rancheritav2.views;
  * Created by oOBlinkOo on 9/27/15.
  */
 
-import android.app.ListFragment;
-import android.content.Intent;
-import android.media.AudioManager;
-import android.media.MediaPlayer;
-import android.net.Uri;
+
+
 import android.os.Bundle;
+import android.support.v4.app.ListFragment;
 import android.text.Html;
 import android.text.Spanned;
 import android.util.Log;
@@ -17,15 +15,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
-import com.squareup.picasso.Picasso;
+
 
 import org.apache.http.Header;
 import org.json.JSONArray;
@@ -38,7 +32,7 @@ import java.util.List;
 import rancherita.ooblinkoo.rancheritav2.R;
 import rancherita.ooblinkoo.rancheritav2.entities.Noticia;
 
-public class MyListFragment extends ListFragment implements OnItemClickListener {
+public class MyListFragment extends ListFragment implements AdapterView.OnItemClickListener {
 
 
     private JSONArray news;
