@@ -1,4 +1,4 @@
-package rancherita.ooblinkoo.rancheritav2.views;
+package rancherita.ooblinkoo.rancheritav2.views.List;
 
 /**
  * Created by oOBlinkOo on 9/27/15.

@@ -14,6 +14,7 @@
         <item>About Us</item>
     </string-array>
     <string name="imgdesc">imgdesc</string>
+    <string name="dummy_section_text">Just a example.</string>
 
     <string-array name="icons">
         <item>dwdw</item>

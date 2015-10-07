@@ -1,4 +1,4 @@
-package rancherita.ooblinkoo.rancheritav2.views.demo;
+package rancherita.ooblinkoo.rancheritav2.views.Efecto;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

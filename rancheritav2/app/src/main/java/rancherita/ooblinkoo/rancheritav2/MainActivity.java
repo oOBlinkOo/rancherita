@@ -1,4 +1,4 @@
-package rancherita.ooblinkoo.rancheritav2.views;
+package rancherita.ooblinkoo.rancheritav2;
 
 import android.app.ActionBar;
 import android.app.FragmentTransaction;
@@ -15,7 +15,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import rancherita.ooblinkoo.rancheritav2.R;
-import rancherita.ooblinkoo.rancheritav2.views.demo.MyAdapter;
+import rancherita.ooblinkoo.rancheritav2.views.Efecto.MyAdapter;
+import rancherita.ooblinkoo.rancheritav2.views.List.MyListFragment;
 
 //public class MainActivity extends ActionBarActivity {
     public class MainActivity extends FragmentActivity implements ActionBar.TabListener {
